@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44AAD4529801ED00045090D /* Access_DetroitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAD4429801ED00045090D /* Access_DetroitApp.swift */; };
+		F44AAD4729801ED00045090D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAD4629801ED00045090D /* ContentView.swift */; };
+		F44AAD4929801ED00045090D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44AAD4829801ED00045090D /* Assets.xcassets */; };
+		F44AAD4D29801ED00045090D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44AAD4C29801ED00045090D /* Preview Assets.xcassets */; };
+		F44AAD5729801ED10045090D /* Access_DetroitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAD5629801ED10045090D /* Access_DetroitTests.swift */; };
+		F44AAD6129801ED10045090D /* Access_DetroitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAD6029801ED10045090D /* Access_DetroitUITests.swift */; };
+		F44AAD6329801ED10045090D /* Access_DetroitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAD6229801ED10045090D /* Access_DetroitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F44AAD5329801ED10045090D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44AAD3929801ED00045090D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44AAD4029801ED00045090D;
+			remoteInfo = "Access Detroit";
+		};
+		F44AAD5D29801ED10045090D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44AAD3929801ED00045090D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44AAD4029801ED00045090D;
+			remoteInfo = "Access Detroit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F44AAD4129801ED00045090D /* Access Detroit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Access Detroit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44AAD4429801ED00045090D /* Access_DetroitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access_DetroitApp.swift; sourceTree = "<group>"; };
+		F44AAD4629801ED00045090D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F44AAD4829801ED00045090D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44AAD4A29801ED00045090D /* Access_Detroit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Access_Detroit.entitlements; sourceTree = "<group>"; };
+		F44AAD4C29801ED00045090D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F44AAD5229801ED10045090D /* Access DetroitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Access DetroitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44AAD5629801ED10045090D /* Access_DetroitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access_DetroitTests.swift; sourceTree = "<group>"; };
+		F44AAD5C29801ED10045090D /* Access DetroitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Access DetroitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44AAD6029801ED10045090D /* Access_DetroitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access_DetroitUITests.swift; sourceTree = "<group>"; };
+		F44AAD6229801ED10045090D /* Access_DetroitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access_DetroitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44AAD3E29801ED00045090D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44AAD4F29801ED10045090D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44AAD5929801ED10045090D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F44AAD3829801ED00045090D = {
+			isa = PBXGroup;
+			children = (
+				F44AAD4329801ED00045090D /* Access Detroit */,
+				F44AAD5529801ED10045090D /* Access DetroitTests */,
+				F44AAD5F29801ED10045090D /* Access DetroitUITests */,
+				F44AAD4229801ED00045090D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44AAD4229801ED00045090D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44AAD4129801ED00045090D /* Access Detroit.app */,
+				F44AAD5229801ED10045090D /* Access DetroitTests.xctest */,
+				F44AAD5C29801ED10045090D /* Access DetroitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44AAD4329801ED00045090D /* Access Detroit */ = {
+			isa = PBXGroup;
+			children = (
+				F44AAD4429801ED00045090D /* Access_DetroitApp.swift */,
+				F44AAD4629801ED00045090D /* ContentView.swift */,
+				F44AAD4829801ED00045090D /* Assets.xcassets */,
+				F44AAD4A29801ED00045090D /* Access_Detroit.entitlements */,
+				F44AAD4B29801ED00045090D /* Preview Content */,
+			);
+			path = "Access Detroit";
+			sourceTree = "<group>";
+		};
+		F44AAD4B29801ED00045090D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F44AAD4C29801ED00045090D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F44AAD5529801ED10045090D /* Access DetroitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F44AAD5629801ED10045090D /* Access_DetroitTests.swift */,
+			);
+			path = "Access DetroitTests";
+			sourceTree = "<group>";
+		};
+		F44AAD5F29801ED10045090D /* Access DetroitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F44AAD6029801ED10045090D /* Access_DetroitUITests.swift */,
+				F44AAD6229801ED10045090D /* Access_DetroitUITestsLaunchTests.swift */,
+			);
+			path = "Access DetroitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44AAD4029801ED00045090D /* Access Detroit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44AAD6629801ED10045090D /* Build configuration list for PBXNativeTarget "Access Detroit" */;
+			buildPhases = (
+				F44AAD3D29801ED00045090D /* Sources */,
+				F44AAD3E29801ED00045090D /* Frameworks */,
+				F44AAD3F29801ED00045090D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Access Detroit";
+			productName = "Access Detroit";
+			productReference = F44AAD4129801ED00045090D /* Access Detroit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44AAD5129801ED10045090D /* Access DetroitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44AAD6929801ED10045090D /* Build configuration list for PBXNativeTarget "Access DetroitTests" */;
+			buildPhases = (
+				F44AAD4E29801ED10045090D /* Sources */,
+				F44AAD4F29801ED10045090D /* Frameworks */,
+				F44AAD5029801ED10045090D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44AAD5429801ED10045090D /* PBXTargetDependency */,
+			);
+			name = "Access DetroitTests";
+			productName = "Access DetroitTests";
+			productReference = F44AAD5229801ED10045090D /* Access DetroitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F44AAD5B29801ED10045090D /* Access DetroitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44AAD6C29801ED10045090D /* Build configuration list for PBXNativeTarget "Access DetroitUITests" */;
+			buildPhases = (
+				F44AAD5829801ED10045090D /* Sources */,
+				F44AAD5929801ED10045090D /* Frameworks */,
+				F44AAD5A29801ED10045090D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44AAD5E29801ED10045090D /* PBXTargetDependency */,
+			);
+			name = "Access DetroitUITests";
+			productName = "Access DetroitUITests";
+			productReference = F44AAD5C29801ED10045090D /* Access DetroitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44AAD3929801ED00045090D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F44AAD4029801ED00045090D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F44AAD5129801ED10045090D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F44AAD4029801ED00045090D;
+					};
+					F44AAD5B29801ED10045090D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F44AAD4029801ED00045090D;
+					};
+				};
+			};
+			buildConfigurationList = F44AAD3C29801ED00045090D /* Build configuration list for PBXProject "Access Detroit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44AAD3829801ED00045090D;
+			productRefGroup = F44AAD4229801ED00045090D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44AAD4029801ED00045090D /* Access Detroit */,
+				F44AAD5129801ED10045090D /* Access DetroitTests */,
+				F44AAD5B29801ED10045090D /* Access DetroitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44AAD3F29801ED00045090D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44AAD4D29801ED00045090D /* Preview Assets.xcassets in Resources */,
+				F44AAD4929801ED00045090D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44AAD5029801ED10045090D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44AAD5A29801ED10045090D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44AAD3D29801ED00045090D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44AAD4729801ED00045090D /* ContentView.swift in Sources */,
+				F44AAD4529801ED00045090D /* Access_DetroitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44AAD4E29801ED10045090D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44AAD5729801ED10045090D /* Access_DetroitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44AAD5829801ED10045090D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44AAD6329801ED10045090D /* Access_DetroitUITestsLaunchTests.swift in Sources */,
+				F44AAD6129801ED10045090D /* Access_DetroitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F44AAD5429801ED10045090D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44AAD4029801ED00045090D /* Access Detroit */;
+			targetProxy = F44AAD5329801ED10045090D /* PBXContainerItemProxy */;
+		};
+		F44AAD5E29801ED10045090D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44AAD4029801ED00045090D /* Access Detroit */;
+			targetProxy = F44AAD5D29801ED10045090D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F44AAD6429801ED10045090D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44AAD6529801ED10045090D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F44AAD6729801ED10045090D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Access Detroit/Access_Detroit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Access Detroit/Preview Content\"";
+				DEVELOPMENT_TEAM = AA25XH6Z34;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Access-Detroit.Access-Detroit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F44AAD6829801ED10045090D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Access Detroit/Access_Detroit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Access Detroit/Preview Content\"";
+				DEVELOPMENT_TEAM = AA25XH6Z34;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Access-Detroit.Access-Detroit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F44AAD6A29801ED10045090D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AA25XH6Z34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Access-Detroit.Access-DetroitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Access Detroit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Access Detroit";
+			};
+			name = Debug;
+		};
+		F44AAD6B29801ED10045090D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AA25XH6Z34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Access-Detroit.Access-DetroitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Access Detroit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Access Detroit";
+			};
+			name = Release;
+		};
+		F44AAD6D29801ED10045090D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AA25XH6Z34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Access-Detroit.Access-DetroitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Access Detroit";
+			};
+			name = Debug;
+		};
+		F44AAD6E29801ED10045090D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AA25XH6Z34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Access-Detroit.Access-DetroitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Access Detroit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44AAD3C29801ED00045090D /* Build configuration list for PBXProject "Access Detroit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44AAD6429801ED10045090D /* Debug */,
+				F44AAD6529801ED10045090D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44AAD6629801ED10045090D /* Build configuration list for PBXNativeTarget "Access Detroit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44AAD6729801ED10045090D /* Debug */,
+				F44AAD6829801ED10045090D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44AAD6929801ED10045090D /* Build configuration list for PBXNativeTarget "Access DetroitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44AAD6A29801ED10045090D /* Debug */,
+				F44AAD6B29801ED10045090D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44AAD6C29801ED10045090D /* Build configuration list for PBXNativeTarget "Access DetroitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44AAD6D29801ED10045090D /* Debug */,
+				F44AAD6E29801ED10045090D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44AAD3929801ED00045090D /* Project object */;
+}
