@@ -9,15 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack{
+            VStack {
+                Text("Employment").fontWeight(.medium)
+                    .font(.largeTitle)
+                Image(systemName: "briefcase.circle").frame(height:2)
+                    .imageScale(.large)
+                    .foregroundColor(.black)
+                    .font(.title)
+                
+            }
+            .padding()
+            .position(x:215 , y:30)
         }
-        .padding()
     }
+    
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
