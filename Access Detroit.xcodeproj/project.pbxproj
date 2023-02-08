@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F44AAD4529801ED00045090D /* Access_DetroitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAD4429801ED00045090D /* Access_DetroitApp.swift */; };
-		F44AAD4729801ED00045090D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAD4629801ED00045090D /* ContentView.swift */; };
 		F44AAD4929801ED00045090D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44AAD4829801ED00045090D /* Assets.xcassets */; };
 		F44AAD4D29801ED00045090D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44AAD4C29801ED00045090D /* Preview Assets.xcassets */; };
 		F44AAD5729801ED10045090D /* Access_DetroitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAD5629801ED10045090D /* Access_DetroitTests.swift */; };
 		F44AAD6129801ED10045090D /* Access_DetroitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAD6029801ED10045090D /* Access_DetroitUITests.swift */; };
 		F44AAD6329801ED10045090D /* Access_DetroitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAD6229801ED10045090D /* Access_DetroitUITestsLaunchTests.swift */; };
+		F44AAE4D2993DFAF0045090D /* EmploymentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAE4C2993DFAF0045090D /* EmploymentPage.swift */; };
+		F44AAE4F2993DFC80045090D /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAE4E2993DFC80045090D /* HomePage.swift */; };
+		F44AAE512993DFD70045090D /* TrainingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAE502993DFD70045090D /* TrainingPage.swift */; };
+		F44AAE532993DFF40045090D /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AAE522993DFF40045090D /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		F44AAD4129801ED00045090D /* Access Detroit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Access Detroit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44AAD4429801ED00045090D /* Access_DetroitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access_DetroitApp.swift; sourceTree = "<group>"; };
-		F44AAD4629801ED00045090D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F44AAD4829801ED00045090D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F44AAD4A29801ED00045090D /* Access_Detroit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Access_Detroit.entitlements; sourceTree = "<group>"; };
 		F44AAD4C29801ED00045090D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +47,10 @@
 		F44AAD5C29801ED10045090D /* Access DetroitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Access DetroitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44AAD6029801ED10045090D /* Access_DetroitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access_DetroitUITests.swift; sourceTree = "<group>"; };
 		F44AAD6229801ED10045090D /* Access_DetroitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access_DetroitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F44AAE4C2993DFAF0045090D /* EmploymentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmploymentPage.swift; sourceTree = "<group>"; };
+		F44AAE4E2993DFC80045090D /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		F44AAE502993DFD70045090D /* TrainingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPage.swift; sourceTree = "<group>"; };
+		F44AAE522993DFF40045090D /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				F44AAD4429801ED00045090D /* Access_DetroitApp.swift */,
-				F44AAD4629801ED00045090D /* ContentView.swift */,
+				F44AAE4C2993DFAF0045090D /* EmploymentPage.swift */,
+				F44AAE4E2993DFC80045090D /* HomePage.swift */,
+				F44AAE502993DFD70045090D /* TrainingPage.swift */,
+				F44AAE522993DFF40045090D /* UserView.swift */,
 				F44AAD4829801ED00045090D /* Assets.xcassets */,
 				F44AAD4A29801ED00045090D /* Access_Detroit.entitlements */,
 				F44AAD4B29801ED00045090D /* Preview Content */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F44AAD4729801ED00045090D /* ContentView.swift in Sources */,
+				F44AAE4D2993DFAF0045090D /* EmploymentPage.swift in Sources */,
+				F44AAE4F2993DFC80045090D /* HomePage.swift in Sources */,
+				F44AAE532993DFF40045090D /* UserView.swift in Sources */,
+				F44AAE512993DFD70045090D /* TrainingPage.swift in Sources */,
 				F44AAD4529801ED00045090D /* Access_DetroitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
