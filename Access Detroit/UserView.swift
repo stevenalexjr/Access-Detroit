@@ -10,7 +10,7 @@ import SwiftUI
 struct UserView: View {
     var body: some View {
         TabView {
-            EmploymentView()
+            CompanyTileView()
                 .tabItem() {
                     Label("Employment", systemImage: "briefcase.circle")
                 }
