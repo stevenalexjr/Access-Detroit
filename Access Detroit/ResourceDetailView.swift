@@ -34,6 +34,6 @@ import SwiftUI
 
 struct ResourceDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ResourceDetailView()
+        ResourceDetailView(company: Company.sampleData[0])
     }
 }

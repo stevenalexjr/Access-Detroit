@@ -12,8 +12,7 @@ let columns = [GridItem(.adaptive(minimum: 100)), GridItem(.adaptive(minimum: 10
 
 struct CompanyTileView: View {
     let company: [Company] = Company.sampleData
-    @State private var showingSheet = false
-    
+    @State private var selectedCompany: Company?
     var body: some View {
         VStack{
             Text("Job Opportunities").bold()
@@ -25,7 +24,7 @@ struct CompanyTileView: View {
                     company in
                     VStack {
                         Button {
-                            showingSheet.toggle()
+                            selectedCompany = company
                             
                         } label: {
                         Image(company.imagePath)
@@ -35,8 +34,8 @@ struct CompanyTileView: View {
                                     .frame(width: 100)
                             }
                         Text(company.name)
-                    }.sheet(isPresented: $showingSheet) {
-                        ResourceDetailView()
+                    }.sheet(item: $selectedCompany) { company  in
+                        ResourceDetailView(company: company)
                     }
                         
                     }

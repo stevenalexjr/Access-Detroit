@@ -8,6 +8,23 @@
 import Foundation
 import SwiftUI
 
+class Companies {
+    var companyName: String
+    var companyAddress: String
+    var companyHours: String
+    var companyWebsite: String
+    var companyImage: String
+    
+    init(companyName: String, companyAddress: String, companyHours: String, companyWebsite: String, companyImage: String) {
+        self.companyName = companyName
+        self.companyAddress = companyAddress
+        self.companyHours = companyHours
+        self.companyWebsite = companyWebsite
+        self.companyImage = companyImage
+    }
+}
+var Starbucks = Companies(companyName: "Starbucks", companyAddress: "777 Woodward Ave, Detroit, Mi, 48226", companyHours: "6:00 am - 7:00 pm", companyWebsite: "www.Starbucks.com", companyImage: "Bucks")
+
 struct Company: Hashable, Identifiable {
     var id = UUID()
     let name: String
@@ -34,23 +51,30 @@ private class ResourceDetailModel: ObservableObject{
 
 struct ResourceDetailView: View {
     @Environment(\.dismiss) var dismiss
+    let company: Company
+    //@StateObject fileprivate var viewModel = ResourceDetailModel()
     
-    @StateObject fileprivate var viewModel = ResourceDetailModel()
-   
-        var body: some View {
-            List(viewModel.company) { company in
-                Button("                 Close") {
-                                        dismiss()
-                                    }
-                                    .font(.title)
-                                    .padding()
-                
-                Text("\(company.name)")
-                Text("\(company.address)")
-                Text("\(company.website)")
-                Text("\(company.hours)")
-
+    var body: some View {
+        //            List(viewModel.company) { company in
+        
+        
+        VStack {List {
+            
+            Text("\(company.name)")
+            Text("\(company.address)")
+            Text("\(company.website)")
+            Text("\(company.hours)")
+            Button("                 Close")
+            {
+                dismiss()
             }
         }
+            .font(.title)
+            .padding()
+        }
+        
+        
+        //            }
     }
+}
 
