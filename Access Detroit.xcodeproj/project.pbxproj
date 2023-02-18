@@ -452,7 +452,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Access-Detroit-Info.plist <key>CFBundleIconName</key> <string>AppIcon</string>";
+				INFOPLIST_FILE = "Access-Detroit-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = IconAssets;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -496,7 +496,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Access-Detroit-Info.plist <key>CFBundleIconName</key> <string>AppIcon</string>";
+				INFOPLIST_FILE = "Access-Detroit-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = IconAssets;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
