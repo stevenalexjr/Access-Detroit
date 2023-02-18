@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4241E3A29A12CDC0085EC9C /* IconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4241E3929A12CDC0085EC9C /* IconAssets.xcassets */; };
 		F4467E0629953F9400585C86 /* Data Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4467E0529953F9400585C86 /* Data Models.swift */; };
 		F4467E08299694AC00585C86 /* ResourceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4467E07299694AC00585C86 /* ResourceDetailView.swift */; };
 		F4467E0A299698C500585C86 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4467E09299698C500585C86 /* Company.swift */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4241E3929A12CDC0085EC9C /* IconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IconAssets.xcassets; sourceTree = "<group>"; };
+		F4241E3B29A130CF0085EC9C /* Access-Detroit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Access-Detroit-Info.plist"; sourceTree = SOURCE_ROOT; };
 		F4467E0529953F9400585C86 /* Data Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data Models.swift"; sourceTree = "<group>"; };
 		F4467E07299694AC00585C86 /* ResourceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDetailView.swift; sourceTree = "<group>"; };
 		F4467E09299698C500585C86 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 		F44AAD3829801ED00045090D = {
 			isa = PBXGroup;
 			children = (
+				F44AAD4829801ED00045090D /* Assets.xcassets */,
+				F4241E3929A12CDC0085EC9C /* IconAssets.xcassets */,
 				F44AAD4329801ED00045090D /* Access Detroit */,
 				F44AAD5529801ED10045090D /* Access DetroitTests */,
 				F44AAD5F29801ED10045090D /* Access DetroitUITests */,
@@ -107,6 +112,7 @@
 		F44AAD4329801ED00045090D /* Access Detroit */ = {
 			isa = PBXGroup;
 			children = (
+				F4241E3B29A130CF0085EC9C /* Access-Detroit-Info.plist */,
 				F44AAD4429801ED00045090D /* Access_DetroitApp.swift */,
 				F4467E0529953F9400585C86 /* Data Models.swift */,
 				F4467E07299694AC00585C86 /* ResourceDetailView.swift */,
@@ -115,7 +121,6 @@
 				F44AAE522993DFF40045090D /* UserView.swift */,
 				F4467E09299698C500585C86 /* Company.swift */,
 				F4467E0B2996995C00585C86 /* CompanyTileView.swift */,
-				F44AAD4829801ED00045090D /* Assets.xcassets */,
 				F44AAD4A29801ED00045090D /* Access_Detroit.entitlements */,
 				F44AAD4B29801ED00045090D /* Preview Content */,
 			);
@@ -252,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44AAD4D29801ED00045090D /* Preview Assets.xcassets in Resources */,
+				F4241E3A29A12CDC0085EC9C /* IconAssets.xcassets in Resources */,
 				F44AAD4929801ED00045090D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,15 +440,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Access Detroit/Access_Detroit.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Access Detroit/Preview Content\"";
-				DEVELOPMENT_TEAM = ZAJ69HZNTW;
+				DEVELOPMENT_TEAM = AA25XH6Z34;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Access-Detroit-Info.plist <key>CFBundleIconName</key> <string>AppIcon</string>";
+				INFOPLIST_KEY_CFBundleDisplayName = IconAssets;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,14 +468,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Access-Detroit.Access-Detroit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				c = "";
 			};
 			name = Debug;
 		};
@@ -472,15 +484,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Access Detroit/Access_Detroit.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Access Detroit/Preview Content\"";
-				DEVELOPMENT_TEAM = ZAJ69HZNTW;
+				DEVELOPMENT_TEAM = AA25XH6Z34;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Access-Detroit-Info.plist <key>CFBundleIconName</key> <string>AppIcon</string>";
+				INFOPLIST_KEY_CFBundleDisplayName = IconAssets;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -495,14 +512,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Access-Detroit.Access-Detroit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				c = "";
 			};
 			name = Release;
 		};
