@@ -52,5 +52,9 @@ struct HomeView: View {
         .tint(.green)
     }
     
-    
+    struct HomePage_Previews: PreviewProvider {
+        static var previews: some View {
+            HomeView()
+        }
+    }
 }

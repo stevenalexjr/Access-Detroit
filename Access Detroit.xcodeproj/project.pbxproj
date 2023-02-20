@@ -42,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		F4241E3929A12CDC0085EC9C /* IconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IconAssets.xcassets; sourceTree = "<group>"; };
-		F4241E3B29A130CF0085EC9C /* Access-Detroit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Access-Detroit-Info.plist"; sourceTree = SOURCE_ROOT; };
 		F4467E0529953F9400585C86 /* Data Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data Models.swift"; sourceTree = "<group>"; };
 		F4467E07299694AC00585C86 /* ResourceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDetailView.swift; sourceTree = "<group>"; };
 		F4467E09299698C500585C86 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
@@ -112,7 +111,6 @@
 		F44AAD4329801ED00045090D /* Access Detroit */ = {
 			isa = PBXGroup;
 			children = (
-				F4241E3B29A130CF0085EC9C /* Access-Detroit-Info.plist */,
 				F44AAD4429801ED00045090D /* Access_DetroitApp.swift */,
 				F4467E0529953F9400585C86 /* Data Models.swift */,
 				F4467E07299694AC00585C86 /* ResourceDetailView.swift */,
@@ -452,7 +450,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Access-Detroit-Info.plist";
+				"GENERATE_INFOPLIST_FILE[sdk=*]" = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = IconAssets;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -496,7 +494,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Access-Detroit-Info.plist";
+				"GENERATE_INFOPLIST_FILE[sdk=*]" = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = IconAssets;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -504,8 +502,8 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=*]" = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;

@@ -8,8 +8,19 @@
 import Foundation
 import SwiftUI
 
+let size = CGSize(width: 2, height: 2)
+
 struct TrainingView: View {
     var body: some View {
-        Text("I think you get it by now")
+        VStack{
+            Text("Personal Development")
+                .font(.largeTitle)
+                .bold()
+            ZStack{
+            }
+            ZStack{
+            }
+            
+        }
     }
 }
