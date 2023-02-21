@@ -10,20 +10,6 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-      
-            TabView {
-                CompanyTileView()
-                    .tabItem() {
-                        Label("Employment", systemImage: "briefcase.circle")
-                    }
-                HomeView()
-                    .tabItem() {
-                        Label("Events", systemImage: "calendar.circle")
-                    }
-                TrainingView()
-                    .tabItem() {
-                        Label("Training", systemImage:"brain.head.profile")
-                    }}
            // working but extra events 
         ZStack {
             

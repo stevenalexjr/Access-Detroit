@@ -16,8 +16,8 @@ struct UserView: View {
                 }
             HomeView()
                 .tabItem() {
-                    Label("Events", systemImage: "calendar.circle")
-            }
+                     Label("Events", systemImage: "calendar.circle")
+                    }
             TrainingView()
                 .tabItem() {
                     Label("Training", systemImage:"brain.head.profile")
